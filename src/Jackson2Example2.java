@@ -35,10 +35,6 @@ public class Jackson2Example2 {
 
 		} catch (JsonGenerationException e) {
 			e.printStackTrace();
-		} catch (JsonMappingException e) {
-			e.printStackTrace();
-		} catch (IOException e) {
-			e.printStackTrace();
 		}
 	}
 
